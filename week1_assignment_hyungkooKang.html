@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image {
+            width: 600px;
+            height: 600px;
+        }
+
+        .img {
+            display: ;
+            height: 600px;
+        }
+
+        .wrap_all {
+            width: 600px;
+            margin: auto
+        }
+
+        .head {
+            display: inline;
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: left align-items:left
+        }
+
+        .category_name {
+            width: 150px;
+            font-size: 20px;
+        }
+
+        .input_box {
+            width: 300px;
+            height: 25px;
+        }
+
+        .row {
+            padding:5px 0
+        }
+
+        .button {
+            width: 200px;
+            height: 40px;
+            outline: none;
+            margin: 0 auto;
+            display:block
+        }
+    </style>
+
+    <script>
+        function button_click(){
+            alert('주문이 완료되었습니다.')} 
+    </script>
+
+
+</head>
+
+<body>
+    <div class="wrap_all">
+        <div class="image">
+            <img class="img"
+                src="https://shop-phinf.pstatic.net/20191215_168/1576414259730NovXN_JPEG/13777648259202935_1604662515.jpg">
+        </div>
+        <br>
+        <span>
+            <h1 class="head">홈리드 해충 퇴치기</h1> 가격: 200,000원 / 개
+            <p>
+                해충이 당신의 삶을 괴롭히나요? 이거 하나면 모든것이 해결! 180도 회전 코드 플러그. 4D 매직 초강력 사운드 스피커. 4배 더 강력한 초음파 세기. 24시간 365일 반영구적.
+                광대역 초음파
+                24khz~100khz까지~! 180만명의 선택을 받은 최고의 상품입니다.
+            </p>
+            <h1>주문하기</h1>
+            <div class="container">
+                <div class="wrapper">
+                    <div class="category_name">주문자 성함:</div>
+                    <input class="input_box" />
+                </div>
+                <div class="row"></div>
+                <div class="wrapper">
+                    <div class="category_name">수량:</div>
+                    <select class="input_box">
+                        <option>1개</option>
+                        <option>2개</option>
+                        <option>3개</option>
+                        <option>4개</option>
+                        <option>5개</option>
+                    </select>
+
+                </div>
+                <div class="row"></div>
+                <div class="wrapper">
+                    <div class="category_name">주소:</div>
+                    <input class="input_box" />
+                </div>
+                <div class="row"></div>
+                <div class="wrapper">
+                    <div class="category_name">전화번호:</div>
+                    <input class="input_box" />
+                </div>
+                <div class="row"></div>
+                <button onclick="button_click()" class="button category_name">주문하기</button>
+        </span>
+    </div>
+</body>
+
+</html>
